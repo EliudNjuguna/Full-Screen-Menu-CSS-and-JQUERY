@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Full Screen Menu Using CSS & JQUERY</title>
+    <!--links-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!--start Open Menu Icon-->
+      <div id="openMenu">
+          <img src="img/menu.svg" alt="">
+      </div>
+  
+  <!--end Close Menu Icon-->
+  <!--start Close Menu Icon-->
+      <div id="closeMenu">
+          <img src="img/close.svg" alt="">
+      </div>
+  
+  <!--end Close Menu Icon-->
+   <div id="main">
+      <div id="logoSection">
+        <img src="img/vector_fashion_heart_logo.png" alt="">
+      </div>
+   
+   <div id="menuSection">
+       <ul>
+           <li onmouseover="anim('about')">
+               <div id="about" class="menu">
+                   ABOU
+                   <div class="rotate">T</div>
+               </div>
+           </li>
+           <li onmouseover="anim('work')">
+               <div id="work" class="menu">
+                   WOR
+                   <div class="rotate">K</div>
+               </div>
+           </li>
+           <li onmouseover="anim('services')">
+               <div id="services" class="menu">
+                   SERVICE
+                   <div class="rotate">S</div>
+               </div>
+           </li>
+           
+       </ul>
+   </div>
+   </div>
+   
+   <!--scripts-->
+   <script src="js/jquery-3.2.1.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/jquerymain.js"></script>
+    
+</body>
+</html>
